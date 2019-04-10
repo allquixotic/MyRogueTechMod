@@ -1,0 +1,32 @@
+{
+    "Name": "Sean",
+    "Enabled": true,
+    "Version": "1.0",
+
+    "Description": "Sean",
+    "Author": "Sean",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+    "Manifest": [
+		{
+			"Type": "WeaponDef",
+			"Path": "weapons"
+		},
+		{
+			"Type": "MechDef",
+			"Path": "mech"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "chassis"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "internals"
+		}
+    ],
+    "DependsOn": [
+		"RogueModuleTech",
+		"ClanTech Module"
+    ]
+}
