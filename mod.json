@@ -9,24 +9,15 @@
     "Contact": "fakeemail@fakeemail.com",
     "Manifest": [
 		{
-			"Type": "WeaponDef",
-			"Path": "weapons"
+			"Type": "HeatSinkDef",
+			"Path": "Heatsink"
 		},
 		{
 			"Type": "MechDef",
 			"Path": "mech"
-		},
-		{
-			"Type": "ChassisDef",
-			"Path": "chassis"
-		},
-		{
-			"Type": "UpgradeDef",
-			"Path": "internals"
 		}
     ],
     "DependsOn": [
-		"RogueModuleTech",
-		"ClanTech Module"
+		"RogueModuleTech"
     ]
 }
